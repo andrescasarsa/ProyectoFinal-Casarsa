@@ -1,0 +1,31 @@
+#main-galeria{
+        padding-bottom: 3rem;
+    .galeriaText{
+        padding: 3.5rem;
+        h2{
+            @include typoTitle ($tipografiaTitulo, $colorTitulo);
+            @extend %estilosTitulos;
+            }
+        p{
+            @extend %estilosParrafo;
+            }
+    }
+    .galeriaRight{
+        display: flex;
+        justify-content: flex-start;
+        padding: 0;
+        img{
+            border-radius: 5px;
+            padding: 0;
+        }
+    }
+    .galeriaLeft{
+        display: flex;
+        justify-content: flex-end;
+        padding: 0;
+        img{
+            border-radius: 5px;
+            padding: 0;
+        }
+    }
+}

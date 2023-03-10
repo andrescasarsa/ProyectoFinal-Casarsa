@@ -1,0 +1,24 @@
+.footer{
+    background: linear-gradient(0deg, rgba(168,168,168,1) 0%, rgba(249,249,249,1) 100%);
+    ul{
+        display: flex;
+        justify-content: center;
+        height: 8vh;
+        margin-bottom: 0;
+        li{
+            list-style: none;
+            padding: 20px;
+            .iconos{
+                padding-left: 10px;
+            }
+            a{
+                padding: 5px;
+                &:hover{
+                    border-bottom: 2px solid #333;
+                }
+            }
+        }
+    }
+}
+
+
